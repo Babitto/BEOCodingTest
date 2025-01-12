@@ -1,0 +1,30 @@
+{
+  "name": "beocodingtest",
+  "version": "1.0.0",
+  "description": "BEO Coding Test Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Babitto/BEOCodingTest.git"
+  },
+  "author": "Babitto John",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Babitto/BEOCodingTest/issues"
+  },
+  "homepage": "https://github.com/Babitto/BEOCodingTest#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7",
+    "sequelize": "^6.37.5",
+    "tedious": "^18.6.1"
+  }
+}
