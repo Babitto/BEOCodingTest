@@ -6,6 +6,7 @@ const portalRouter = require("./routes/portalRouter");
 const jobRouter = require("./routes/jobRouter");
 const documentRouter = require("./routes/documentRouter");
 const bodyParser = require('body-parser');
+require("./utils/scheduler");
 
 const port = process.env.PORT ;
 
